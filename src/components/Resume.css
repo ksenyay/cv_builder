@@ -1,0 +1,199 @@
+.resume-section {
+  background-color: white;
+  width: 550px;
+  height: 600px;
+  overflow: auto;
+}
+
+/* GENERAL */
+
+.general-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.general-section h2 {
+  margin-top: 30px;
+  margin-bottom: 17px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 10px 5px 10px;
+}
+
+.contact-container > * {
+  border-left: 1px solid grey;
+  padding: 0 10px;
+  font-size: 0.7em;
+  margin: 4px;
+}
+
+.contact-container p:first-child {
+  border-left: none;
+}
+
+/* Education */
+
+.education-section {
+  margin: 20px 30px 5px 30px;
+}
+
+.education-container,
+.skills-container,
+.experience-container {
+  margin: 10px 40px;
+}
+
+.education-container h3,
+.skills-container h3,
+.experience-container h3 {
+  border-bottom: 2px solid rgb(77, 77, 77);
+  padding-bottom: 5px;
+  font-size: 0.98em;
+  margin-top: 15px;
+}
+
+.skills-container h3,
+.experience-container h3 {
+  margin-top: 5px;
+}
+
+.education-list {
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 0.85em;
+  height: 60px;
+}
+
+.education-first {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.education-second {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  align-items: end;
+  justify-content: center;
+}
+
+.education-container h4,
+.education-container p {
+  padding-top: 5px;
+}
+
+ul {
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+li:hover {
+  text-decoration: line-through;
+  color: red;
+}
+
+/* SKILLS SECTION */
+
+.skills-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.skills-section h5 {
+  font-size: 0.88em;
+  margin-top: 5px;
+}
+
+.skills-section ul,
+.languages-section ul {
+  margin-left: 20px;
+  font-size: 0.85em;
+  cursor: pointer;
+}
+
+.skills-section div:first-child {
+  width: 50%;
+}
+
+.skills-section div:second-child {
+  width: 50%;
+}
+
+.languages-section {
+  margin-top: 7px;
+}
+.languages-section h5 {
+  display: inline;
+  font-size: 0.88em;
+}
+
+.languages-section ul {
+  margin: 0;
+}
+
+.languages-section li {
+  display: inline;
+}
+
+.languages-section li::after {
+  content: ", ";
+}
+
+.languages-section li:last-child::after {
+  content: "";
+}
+
+/* EXPERIENCE SECTION */
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.experience-list h6 {
+  font-size: 0.89em;
+}
+
+.experience-list p {
+  font-size: 0.85em;
+}
+
+.experience-first,
+.experience-second {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.experience-first p {
+  margin-left: auto;
+}
+
+.experience-second p:last-child {
+  margin-left: auto;
+}
+
+#textarea-paragraph {
+  font-size: 0.75em;
+  margin-top: 5px;
+}
