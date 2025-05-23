@@ -11,3 +11,5 @@ This project allows users to:
 - Download a print-ready PDF version.
 
 ## 🌎 Live Preview
+
+https://cv-builder-pdf.netlify.app/
