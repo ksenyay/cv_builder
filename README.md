@@ -2,7 +2,7 @@
 
 An intuitive CV Builder web application built with **React**. Instantly preview and export your resume as a professional-looking PDF—all in real time.
 
-![image](https://github.com/user-attachments/assets/7a36c825-a4a7-405b-90a0-12f9fed4469d)
+![image](https://github.com/user-attachments/assets/f197f61a-35ae-4e5c-9c31-46a579ef08ab)
 
 ## 🚀 Features
 
@@ -22,7 +22,6 @@ An intuitive CV Builder web application built with **React**. Instantly preview 
 
 - **React** (with Hooks)
 - **HTML5 + CSS3**
-- **React-to-Print** (for exporting to PDF)
 
 ## 📸 Screenshots
 
