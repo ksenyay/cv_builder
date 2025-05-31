@@ -11,7 +11,7 @@ function App() {
     phone: "3342-1560",
     email: "thomas.m@gmail.com",
     location: "London, England",
-    website: "github.com",
+    website: "https://github.com",
   });
 
   const [educationData, setEducationData] = useState([
@@ -35,7 +35,7 @@ function App() {
       id: "2",
     },
     {
-      name: "React, NodeJS",
+      name: "ReactJS, NodeJS",
       id: "3",
     },
   ]);
